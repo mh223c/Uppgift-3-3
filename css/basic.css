@@ -1,1 +1,154 @@
-/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+#container
+{
+    background-image: url('pics/coffey.jpg');
+    height: 620px;
+    background-repeat: no-repeat;
+    width: 600px;
+    margin: auto;
+    border: 1px solid #D0D0D0;
+    background-color: #F5F5DC;
+    color: #787878;
+    
+}
+
+#topbar 
+{
+    background-color: #303030;
+    text-align: right;
+    font-size: 12px;
+    font-style: italic;
+    color: #FFFFFF;
+    line-height: 20px;
+    padding-right: 2px;
+}
+
+#menu
+{
+    background-color: #303030;
+    margin-top: 180px;
+    height: 40px;
+    font-size: 90%;
+}
+
+#menu  li
+{
+    display: inline;
+    
+}
+
+#menu li a
+{
+    text-decoration:none;
+    color:white;
+    background-color: #585858;
+    padding: 10px 25px;
+    margin: -2.5px;
+    border-right:1px solid black;
+    
+}
+
+#menu ul 
+{
+    margin-left: -27px;
+
+}
+
+#menu a 
+{
+    display: none;
+}
+
+#menu ul a
+{
+    display: inline-block;
+}
+
+ul 
+{
+    list-style-type: none;
+    float: left;
+}
+
+
+#content
+{
+    background-color: #F5F5DC;
+    
+}
+
+
+#maincontent
+{
+    background-color: #F5F5DC;
+    float: left;
+    width: 400px;
+    font-size: 14px;
+    margin-top: -21px;
+}
+
+h1 
+{
+    color:#00ff00;
+    margin: 10px;
+}
+
+#subcontent h1 
+{
+    font-size: 16px;
+    line-height: 40px;
+    
+}
+
+#subcontent ul 
+{
+    margin-top: -17px;
+    padding: 10px;
+}
+
+h2 
+{
+    margin: 10px;
+    font-size: 12px;
+    
+}
+
+p 
+{
+    line-height: 20px;
+    margin: 10px;
+}
+
+img 
+{
+    float: left;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+#subcontent
+{
+    float: right;
+    background-color: #F5F5DC;
+    width: 200px;
+    font-size: 11px;
+    margin-top: -21px;
+    color: #787878;
+}
+
+
+
+body 
+{
+    font-family: Verdana, Times;
+}
+
+
+#bottomcontent
+{
+    float: left;
+    font-size: 10px;
+    font-style:italic;
+    color: #808080;
+    margin: 10px;
+    background-color: #F5F5DC;
+}
