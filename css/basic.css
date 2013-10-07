@@ -1,32 +1,32 @@
 #container
 {
     background-image: url('pics/coffey.jpg');
-    height: 620px;
+    height: 600px;
     background-repeat: no-repeat;
     width: 600px;
     margin: auto;
     border: 1px solid #D0D0D0;
-    background-color: #F5F5DC;
+    background-color: #E8E5D1;
     color: #787878;
     
 }
 
 #topbar 
 {
-    background-color: #303030;
+    background-color: #4F463C;
     text-align: right;
-    font-size: 12px;
+    font-size: 10px;
     font-style: italic;
-    color: #FFFFFF;
+    color: #E8E5D1;
     line-height: 20px;
     padding-right: 2px;
 }
 
 #menu
 {
-    background-color: #303030;
+    background-color: #4F463C;
     margin-top: 180px;
-    height: 40px;
+    height: 38px;
     font-size: 90%;
 }
 
@@ -39,11 +39,12 @@
 #menu li a
 {
     text-decoration:none;
-    color:white;
-    background-color: #585858;
-    padding: 10px 25px;
-    margin: -2.5px;
-    border-right:1px solid black;
+    color: #E8E5D1;
+    background-color: #786F66;
+    padding: 7px 19px;
+    margin: -10px -3px;
+    border-left: 1px solid #4F463C;
+    text-transform: Capitalize;
     
 }
 
@@ -79,24 +80,25 @@ ul
 
 #maincontent
 {
-    background-color: #F5F5DC;
+    background-color: #E8E5D1;
     float: left;
     width: 400px;
     font-size: 14px;
-    margin-top: -21px;
+    color: #786F66;
+    margin-top: 17px;
 }
 
 h1 
 {
-    color:#00ff00;
+    font-family: Times;
+    color: #787878;
     margin: 10px;
 }
 
 #subcontent h1 
 {
     font-size: 16px;
-    line-height: 40px;
-    
+    font-family: Times;
 }
 
 #subcontent ul 
@@ -109,12 +111,12 @@ h2
 {
     margin: 10px;
     font-size: 12px;
+    font-family: Times;
     
 }
 
 p 
 {
-    line-height: 20px;
     margin: 10px;
 }
 
@@ -122,17 +124,25 @@ img
 {
     float: left;
     margin: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 #subcontent
 {
     float: right;
-    background-color: #F5F5DC;
-    width: 200px;
+    background-color: #E8E5D1;
+    width: 199px;
     font-size: 11px;
-    margin-top: -21px;
-    color: #787878;
+    color: #786F66;
+    border-left: 1px dashed #D0D0D0;
+    margin-top: 20px;
+    
+   
+}
+
+#subcontent p 
+{
+    padding: 10px 0px;
 }
 
 
@@ -140,6 +150,7 @@ img
 body 
 {
     font-family: Verdana, Times;
+    background-color: #FAF8F2;
 }
 
 
@@ -150,5 +161,6 @@ body
     font-style:italic;
     color: #808080;
     margin: 10px;
-    background-color: #F5F5DC;
+    background-color: #E8E5D1;
+    
 }
